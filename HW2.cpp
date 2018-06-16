@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <cstdio>
 
 // by 1 byte
 void memcpy1(char *from, char *to, int size) {
@@ -115,8 +115,8 @@ void memcpy_16_hard(char *from, char *to, int size) {
         //0 - from, 1 - to, 2- tmp size, 3 - static size
         asm volatile(
         "loop16_:\n\t"
-                "movdqa (%0), %%xmm1\n\t"
-                "movdqu %%xmm1, (%1)\n\t"
+                "movdqa (%0), %%xmm1\n\t" //aligned
+                "movdqu %%xmm1, (%1)\n\t" //unligned
                 "add $16,%0\n\t"
                 "add $16,%1\n\t"
                 "dec %2\n\t"

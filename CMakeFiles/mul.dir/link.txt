@@ -1,0 +1,1 @@
+/usr/bin/ld CMakeFiles/mul.dir/HW1-mul.asm.o -o mul

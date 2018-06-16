@@ -1,0 +1,4 @@
+/Users/tina/Documents/ITMO/CT/ITMO_Assembly/CMakeFiles/mul.dir
+/Users/tina/Documents/ITMO/CT/ITMO_Assembly/CMakeFiles/rebuild_cache.dir
+/Users/tina/Documents/ITMO/CT/ITMO_Assembly/CMakeFiles/edit_cache.dir
+/Users/tina/Documents/ITMO/CT/ITMO_Assembly/CMakeFiles/sub.dir

@@ -1,0 +1,1 @@
+/usr/bin/ld CMakeFiles/sub.dir/HW1-sub.asm.o -o sub
